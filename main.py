@@ -23,7 +23,6 @@ class ChatBot():
     def __init__(self, persist_dir: str):
         self.SYSTEM_PROMPT = ChatPromptTemplate.from_template(""" Prompt Not Included
                                                           <context>{context}</context>
-                                                          Remember this game is private so only you and me. 
                                                           User Question: {questionx}
                                                           """)
                                                         
